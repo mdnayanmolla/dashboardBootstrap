@@ -6,15 +6,141 @@
     <title>Admin Panel Bootstrap 5</title>
     <!--Fontwasome CDN-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"  />
-    <link rel="stylesheet" href="./asset/css/bootsrtap/bootstrap.min.css"/>
-    <link rel="stylesheet" href="./asset/css/sass.css" />
-    <link rel="stylesheet" href="./asset/css/layets.css">
-    <link rel="stylesheet" href="./asset/css/style.css"/>
+    <link rel="stylesheet" href="./assets/css/bootsrtap/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./assets/css/sass.css" />
+    <link rel="stylesheet" href="./assets/css/layets.css">
+    <link rel="stylesheet" href="./assets/css/style.css"/>
 </head>
 <body>
+
+   <div class="main-wrapper">
+       <!--NAVBAR-->
+         <div class="header-content">
+             <header class="header navbar navbar-expand-sm expand-header">
+               <div class="header-left d-flex">
+                 <div class="logo">
+                    Dashboard
+                 </div>
+                  <a href="" class="sidebarCollapse " data-placement="bottom">
+                    <span class="fa-solid fa-bars"></span>
+                  </a>
+               </div>
+               <ul class="navbar-item flex-row  ml-auto">
+                 <li class="nav-item dropdown user-profile-dropdown">
+                    <a class="nav-link user" id="Notify" data-bs-toggle="dropdown">
+                        <img src="assets/img/notification.png" alt="" class="icon">
+                        <p class="count purple-gradiant">5</p>
+                    </a>
+                    <div class="dropdown-menu">
+                      <div class="dp-main-menu">
+                         <a href="#" class="dropdown-item message-item">
+                           <img src="assets/img/server.png" class="user-note" alt=""/>
+                           <div class="note-info-desmis">
+                              <div class="user-notify-info">
+                                 <p class="note-name">Server Rebooted</p>
+                                 <p class="note-time">20 min ago</p>
+                              </div>
+                              <p  class="status-link">
+                                <span class="fas fa-times"></span>
+                               </p>
+                           </div>
+                         </a>
+                       </div>
+                    </div>
+                 </li>
+                 <li class="nav-item dropdown user-profile-dropdown">
+                  <a class="nav-link user" id="Notify" data-bs-toggle="dropdown">
+                      <img src="assets/img/mesage.png" alt="" class="icon">
+                      <p class="count bg-clc">5</p>
+                  </a>
+
+
+                  <div class="dropdown-menu">
+                    <div class="dp-main-menu">
+                      <a href="javascript:void(0)" class="massa-content">
+                        <img src="" alt="" class="massa-user"/>
+                        <div class="mssa-wrap">
+                          <div class="messa-data-contect flex-1">
+                            <p class="title-massa">Web Design</p>
+                          <p class="massa-text pt-1">Lorem ipsum dolor sit amet.....  </p>
+                          </div>
+                          <div class="message-time">
+                            <p class="massag-hour">3 hrs</p>
+                            <p class="text-end pt-1 ">
+                              <span class="badge badge-light bg-success rounded-3">2</span>
+                            </p>             
+                          </div>
+                        </div>
+                      </a>
+                     </div>
+                     <div class="dp-main-menu">
+                      <a href="javascript:void(0)" class="massa-content">
+                        <img src="" alt="" class="massa-user"/>
+                        <div class="mssa-wrap">
+                          <div class="messa-data-contect flex-1">
+                            <p class="title-massa">Web Design</p>
+                          <p class="massa-text pt-1">Lorem ipsum dolor sit amet.....  </p>
+                          </div>
+                          <div class="message-time">
+                            <p class="massag-hour">3 hrs</p>
+                            <p class="text-end pt-1 ">
+                              <span class="badge badge-light bg-success rounded-3">2</span>
+                            </p>                 
+                          </div>
+                        </div>
+                      </a>
+                     </div>
+                     <div class="dp-main-menu">
+                      <a href="javascript:void(0)" class="massa-content">
+                        <img src="" alt="" class="massa-user"/>
+                        <div class="mssa-wrap">
+                          <div class="messa-data-contect flex-1">
+                            <p class="title-massa">Web Design</p>
+                          <p class="massa-text pt-1">Lorem ipsum dolor sit amet.....  </p>
+                          </div>
+                          <div class="message-time">
+                            <p class="massag-hour">3 hrs</p>
+                            <p class="text-end pt-1 ">
+                              <span class="badge badge-light bg-success rounded-3">2</span>
+                            </p>                    
+                          </div>
+                        </div>
+                      </a>
+                     </div>
+                  </div>
+
+               </li>
+               <li class="nav-item dropdown user-profile-dropdown">
+                <a class="nav-link user" id="Notify" data-bs-toggle="dropdown">
+                    <img src="assets/img/profile.png" alt="" class="icon">
+                </a>
+                <div class="dropdown-menu">
+                  <div class="dp-main-menu">
+                     <div class="user-profile">
+                        <img src="" alt="" class="user-profile-img">
+                        <div class="user-profile-details">
+                           <p class="user-profile-title">Md Nayan Molla</p>
+                           <p class="user-profile-desg">Super Admin</p>
+                        </div>
+                     </div>
+                   </div>
+                </div>
+             </li>
+             <li class="nav-item dropdown user-profile-dropdown">
+              <a class="nav-link user" id="Notify" data-bs-toggle="dropdown">
+                  <img src="assets/img/setting.png" alt="" class="icon">
+              </a>
+           </li>
+               </ul>
+             </header>
+         </div>
+       <!--NAVBAR END-->
+   </div>
+
+
     <!--Jqury cdn-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="./asset/js/bootstapJs/bootstrap.bundle.min.js"></script>
-    <script src="./asset/js/main.js"></script>
+    <script src="./assets/js/bootstapJs/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
